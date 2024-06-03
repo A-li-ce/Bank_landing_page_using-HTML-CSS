@@ -12,16 +12,13 @@ body {
 }
 
 .navbar {
-    position: sticky;
-    top: 0;
+    position: relative;
     width: 100%;
     z-index: 1000;
-    background: white; 
+    background: white;
 }
 
-/* .navbar{
-    margin-bottom: 10px;
-} */
+
 .nav{
     position: absolute;
 left: 175px;
@@ -81,7 +78,7 @@ box-sizing: border-box;
 }
 
 .home{
-    margin-right: 13px;
+margin-right: 13px;
 width: 71px;
 overflow-wrap: break-word;
 font-family: 'Clash Display', 'Roboto Condensed';
@@ -808,7 +805,7 @@ color: #000000;
 }
 
 
-.faq-detail-1{
+.faq-details-1{
     align-self: flex-start;
 text-align: justify;
 overflow-wrap: break-word;
@@ -854,7 +851,8 @@ color: #000000;
     line-height: 1.556;
     text-transform: capitalize;
     color: #000000;
-}
+    }
+
 
 .faq-container-2{
     margin-bottom: 20px;
@@ -1022,7 +1020,9 @@ color: #000000;
 } */
 
 .footer {
+
     position: relative; 
+    margin-top:100px;
     width: 100%; 
     left: 50%;
     bottom: 41.3px;
@@ -1393,13 +1393,26 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.625;
 color: #81848A;
+/* background-color: red; */
 }
 
 .subs{
+    border-radius: 4px;
+background: #000000;
+position: relative;
+display: flex;
+padding: 18px 16.7px 17px 0;
+width: 160px;
+height: fit-content;
+box-sizing: border-box;
+}
+
+.subscribe{
     overflow-wrap: break-word;
 font-family: 'Clash Display', 'Roboto Condensed';
 font-weight: 500;
 font-size: 16px;
+padding-left: 50px;
 line-height: 1.625;
 text-transform: capitalize;
 color: #FFFFFF;
