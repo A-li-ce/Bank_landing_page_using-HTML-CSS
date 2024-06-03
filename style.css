@@ -455,28 +455,36 @@ position: absolute;
 
 .main-1{
     position: relative;
-    /* margin: 0 33.8px 118px 0; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0 127.5px 0;
-    /* width: fit-content; */
+    top:-170px;
+    left: 0;
     width: 100%;
     box-sizing: border-box;
 }
 
 .star-7{
     top:-70px ;
-    /* left: 200px; */
-    /* width: 50.9px;
-    height: 50.9px; */
+}
+
+.star-8{
+    top:-120px;
+    left: -80px;
+}
+.star-9{
+    top:5px;
+    left: 750px;
+    transform: rotate(50deg);
+    
 }
 
 .main-1-left {
-    flex: 1; /* Make the left side take up available space */
+    flex: 1; 
     display: flex;
-    justify-content: flex-start; /* Align content to the start (left) */
+    justify-content: flex-start; 
 }
 
 .main-1-gradient{
@@ -718,13 +726,24 @@ text-transform: capitalize;
 color: #000000;
 }
 
+.main-gradient{
+    position: relative;
+    bottom: 800px;
+    right: -1250px;
+    z-index: -1;
+}
+
+
 /* FAq--------------------------------- */
 
 .FAQ{
     border-radius: 8px;
+    position: relative;
     margin: 0 122px 68px 129px;
     display: flex;
     flex-direction: column;
+    top: -500px;
+    left: 0;
     width: fit-content;
     box-sizing: border-box;
 }
