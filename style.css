@@ -148,7 +148,6 @@ width: 180px;
     text-align: center;
 }
 
-
 /* star-3 */
 .star-3{
     transform: rotate(35deg);
@@ -513,12 +512,12 @@ height: 600.6px;
     position: absolute;
     right: 860px;
     bottom: 5px;
-    width: 730.5px;
-    height: 730.5px;
+    width: 722.5px;
+    height: 722.5px;
 }
 .iphone-13-pro-front-3{
     position: absolute;
-    left: 135px;
+    left: 195px;
     top: 240px;
     translate: 0 -50%;
     display: flex;
@@ -529,7 +528,7 @@ height: 600.6px;
 }
 
 .silver-3{
-    background: url('./Assets/iphone-3.png');
+    background: url('./Assets/phone-main.png');
     width: 100%;
     height: 100%;
 }
