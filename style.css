@@ -1045,7 +1045,7 @@ color: #FFFFFF;
     display: flex;
     flex-direction: row;
     align-self: flex-start;
-width: fit-content;
+    width: fit-content;
 }
 
 .f-item-1-imgs{
@@ -1332,7 +1332,7 @@ height: 18px;
 }
 
 .footer-item-5-1{
-    box-shadow: -13px 13px 104.1px 0px rgba(161, 161, 161, 0.1);
+    box-shadow: -13px 13px 104.1px 0px rgba(9, 7, 7, 0.1);
     border-radius: 4px;
     background: #FFFFFF;
     position: relative;
@@ -1388,17 +1388,6 @@ height: 18px;
 
 }
 
-.footer-end{
-    border-image: linear-gradient(90deg, rgba(22, 22, 22, 0), #696969, rgba(22, 22, 22, 0));
-    border-image-slice: 1;
-    border-width: 0;
-    border-top-width: 1px;
-    border-style: solid;
-    margin-right: 1px;
-    display: flex;
-    padding: 38px 62.9px 39px 0;
-    width: 1090px;
-}
 
 .copyright{
     overflow-wrap: break-word;
