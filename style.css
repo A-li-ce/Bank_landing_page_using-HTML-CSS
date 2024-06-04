@@ -105,6 +105,11 @@ body {
 
 }
 
+.menu-item:hover{
+    /* font-size: 20px; */
+    color: #81848A;
+    cursor: pointer;
+}
 .DownLoad{
     border-radius: 4px;
 background: #000000;
@@ -114,6 +119,11 @@ right: 175px;
 display: flex;
 padding: 16px;
 width: 180px;
+}
+
+.DownLoad:hover{
+    cursor: pointer;
+    background-color: #81848A;
 }
 
 .down-btn {
