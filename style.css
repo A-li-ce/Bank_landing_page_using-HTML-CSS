@@ -51,6 +51,9 @@ body {
     width: 106.2px;
 }
 
+.logo-item:hover{
+    cursor: pointer;
+}
 .fire-logo{
     margin: 0 6.4px 0.4px 0;
     width: 34px;
@@ -1409,14 +1412,10 @@ height: 18px;
     margin: 0 auto;
 }
 
-/* .footer-item-1, .footer-item-2 .footer-links, .footer-item-3 .footer-links-2, .footer-item-4:hover, .footer-item-4 .footer-links-3:hover { */
-    /* cursor: pointer;
-    text-decoration: underline; */
-/* } */
-
 
 .footer-item-1 .vector-6:hover,
 .footer-item-1 .vector-7:hover,
+.footer-item-1 .f-item-1-imgs:hover,
 .footer-item-1 .helpfrybix-com:hover, 
 .footer-item-1 .phone-num:hover,
 .footer-item-2 .footer-links:hover,
